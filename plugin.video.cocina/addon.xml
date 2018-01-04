@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.Catoal"
-       name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
-       version="5.4.0"
-       provider-name="Catoal">
+<addon id="plugin.video.cocina"
+       name="[COLOR gold]COCINA POR RAL[/COLOR][COLOR blue] 0[/COLOR].[COLOR yellow]0[/COLOR].[COLOR red]1[/COLOR]"
+       version="0.0.1"
+       provider-name="Ral">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -22,15 +22,15 @@
     <provides>video</provides>
   </extension>
   
-     <extension point="xbmc.addon.repository" name="Catoal Repository">
-		<info>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/xxxxxxxxxxxxxxxxxx/Repo/master/Repositorio/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/xxxxxxxxxxxx/master/Repositorio/</datadir>
-	</extension>
+   <extension point="xbmc.addon.repository" name="Mi repositorio">
+        <info>https://raw.githubusercontent.com/raltango/reposito-RAL/master/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/raltango/reposito-RAL/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/raltango/master/Repositorio/</datadir>
+    </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Catoal</summary>
-    <description>Catoal 2017</description>
+    <summary>Creado por Ral</summary>
+    <description>Ral 2018</description>
     <platform>all</platform>
   </extension>
 </addon>
